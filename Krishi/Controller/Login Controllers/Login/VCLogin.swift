@@ -4,7 +4,7 @@ import UIKit
 import Alamofire
 import UserNotifications
 
-class MobileNumberVC: UIViewController {
+class VCLogin: UIViewController {
     
     @IBOutlet weak var enterMobileNumber: UITextField!
 //        var URL_CREATE_AUTH = "http://192.168.64.2/krishi_app/v1/create_auth.php"
@@ -27,7 +27,7 @@ class MobileNumberVC: UIViewController {
 
 //MARK: - UItextfieds delegate method
 
-extension MobileNumberVC : UITextFieldDelegate{
+extension VCLogin : UITextFieldDelegate{
     //hide kyeboard when tap out side
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
@@ -44,7 +44,7 @@ extension MobileNumberVC : UITextFieldDelegate{
 
 //MARK: - user Notification
 
-extension MobileNumberVC: UNUserNotificationCenterDelegate{
+extension VCLogin: UNUserNotificationCenterDelegate{
     
     @IBAction func continueButtonPressed(_ sender: UIButton) {
         

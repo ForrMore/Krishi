@@ -12,11 +12,11 @@
 		37079747269DA7530064EBD2 /* AddImageCommodity.png in Resources */ = {isa = PBXBuildFile; fileRef = 37079746269DA7530064EBD2 /* AddImageCommodity.png */; };
 		3707974C269DC0120064EBD2 /* UniqueImageID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3707974B269DC0120064EBD2 /* UniqueImageID.swift */; };
 		37079751269ED5720064EBD2 /* SellPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37079750269ED5720064EBD2 /* SellPostModel.swift */; };
-		370F3FF52659FF9300A2C33B /* MobileNumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F3FF42659FF9300A2C33B /* MobileNumberVC.swift */; };
-		370F3FFD2659FFB400A2C33B /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F3FFC2659FFB400A2C33B /* OtpVC.swift */; };
-		370F4002265A00F400A2C33B /* PersonalDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4001265A00F400A2C33B /* PersonalDetailVC.swift */; };
-		370F4007265A014700A2C33B /* CurrentLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4006265A014700A2C33B /* CurrentLocationVC.swift */; };
-		370F400C265A017700A2C33B /* SelectCommodityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F400B265A017700A2C33B /* SelectCommodityVC.swift */; };
+		370F3FF52659FF9300A2C33B /* VCLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F3FF42659FF9300A2C33B /* VCLogin.swift */; };
+		370F3FFD2659FFB400A2C33B /* VCOtp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F3FFC2659FFB400A2C33B /* VCOtp.swift */; };
+		370F4002265A00F400A2C33B /* VCUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4001265A00F400A2C33B /* VCUserProfile.swift */; };
+		370F4007265A014700A2C33B /* VCLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F4006265A014700A2C33B /* VCLocation.swift */; };
+		370F400C265A017700A2C33B /* VCCommodity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370F400B265A017700A2C33B /* VCCommodity.swift */; };
 		37122AA42697E59C00A984C8 /* RateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37122AA32697E59B00A984C8 /* RateListViewController.swift */; };
 		37155C3E265B66110076B454 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37155C3D265B66110076B454 /* UserData.swift */; };
 		3720966A2651547B004E5326 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372096692651547B004E5326 /* Constants.swift */; };
@@ -269,6 +269,12 @@
 		37F9E1C32663770B002E93FA /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F9E1C22663770B002E93FA /* WeatherModel.swift */; };
 		401EEB0D9384C884C7B4FB43 /* Pods_Krishi_KrishiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB259C47239C565FF110B92 /* Pods_Krishi_KrishiUITests.framework */; };
 		89F9D5EE667547BF7D94734C /* Pods_Krishi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C6A4B96C2A41D04AAF934E /* Pods_Krishi.framework */; };
+		FA82B5B327A0607100F3FE80 /* VCLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA82B5B227A0607100F3FE80 /* VCLogin.xib */; };
+		FA82B5B927A062B000F3FE80 /* Ext-UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82B5B827A062B000F3FE80 /* Ext-UIButton.swift */; };
+		FA82B5C227A064C700F3FE80 /* VCOtp.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA82B5C127A064C700F3FE80 /* VCOtp.xib */; };
+		FA82B5CE27A066A100F3FE80 /* VCUserProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA82B5CD27A066A100F3FE80 /* VCUserProfile.xib */; };
+		FA82B5D827A068C900F3FE80 /* VCLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA82B5D727A068C900F3FE80 /* VCLocation.xib */; };
+		FA82B5E127A06A0800F3FE80 /* VCCommodity.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA82B5E027A06A0800F3FE80 /* VCCommodity.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -295,11 +301,11 @@
 		37079746269DA7530064EBD2 /* AddImageCommodity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddImageCommodity.png; sourceTree = "<group>"; };
 		3707974B269DC0120064EBD2 /* UniqueImageID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueImageID.swift; sourceTree = "<group>"; };
 		37079750269ED5720064EBD2 /* SellPostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellPostModel.swift; sourceTree = "<group>"; };
-		370F3FF42659FF9300A2C33B /* MobileNumberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumberVC.swift; sourceTree = "<group>"; };
-		370F3FFC2659FFB400A2C33B /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
-		370F4001265A00F400A2C33B /* PersonalDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailVC.swift; sourceTree = "<group>"; };
-		370F4006265A014700A2C33B /* CurrentLocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationVC.swift; sourceTree = "<group>"; };
-		370F400B265A017700A2C33B /* SelectCommodityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCommodityVC.swift; sourceTree = "<group>"; };
+		370F3FF42659FF9300A2C33B /* VCLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLogin.swift; sourceTree = "<group>"; };
+		370F3FFC2659FFB400A2C33B /* VCOtp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCOtp.swift; sourceTree = "<group>"; };
+		370F4001265A00F400A2C33B /* VCUserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCUserProfile.swift; sourceTree = "<group>"; };
+		370F4006265A014700A2C33B /* VCLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLocation.swift; sourceTree = "<group>"; };
+		370F400B265A017700A2C33B /* VCCommodity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCommodity.swift; sourceTree = "<group>"; };
 		37122AA32697E59B00A984C8 /* RateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateListViewController.swift; sourceTree = "<group>"; };
 		37155C3D265B66110076B454 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		372096692651547B004E5326 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -563,6 +569,12 @@
 		C13950FF4391AC9FB759DAF8 /* Pods_KrishiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KrishiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B94A87B2B2623D61BC8F98 /* Pods-Krishi-KrishiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Krishi-KrishiUITests.release.xcconfig"; path = "Target Support Files/Pods-Krishi-KrishiUITests/Pods-Krishi-KrishiUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EFB259C47239C565FF110B92 /* Pods_Krishi_KrishiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Krishi_KrishiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA82B5B227A0607100F3FE80 /* VCLogin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCLogin.xib; sourceTree = "<group>"; };
+		FA82B5B827A062B000F3FE80 /* Ext-UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext-UIButton.swift"; sourceTree = "<group>"; };
+		FA82B5C127A064C700F3FE80 /* VCOtp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCOtp.xib; sourceTree = "<group>"; };
+		FA82B5CD27A066A100F3FE80 /* VCUserProfile.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCUserProfile.xib; sourceTree = "<group>"; };
+		FA82B5D727A068C900F3FE80 /* VCLocation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCLocation.xib; sourceTree = "<group>"; };
+		FA82B5E027A06A0800F3FE80 /* VCCommodity.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCCommodity.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -593,17 +605,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		370F3FF32659FF3B00A2C33B /* AUTHENTICATION */ = {
-			isa = PBXGroup;
-			children = (
-				370F3FF42659FF9300A2C33B /* MobileNumberVC.swift */,
-				370F3FFC2659FFB400A2C33B /* OtpVC.swift */,
-				370F4001265A00F400A2C33B /* PersonalDetailVC.swift */,
-				370F4006265A014700A2C33B /* CurrentLocationVC.swift */,
-			);
-			path = AUTHENTICATION;
-			sourceTree = "<group>";
-		};
 		37122AA82698980900A984C8 /* BusinessLogic */ = {
 			isa = PBXGroup;
 			children = (
@@ -691,13 +692,16 @@
 			path = NewsMandiRates;
 			sourceTree = "<group>";
 		};
-		376E02F42670C0D100D4AB7D /* Login */ = {
+		376E02F42670C0D100D4AB7D /* Login Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				370F3FF32659FF3B00A2C33B /* AUTHENTICATION */,
-				370F400B265A017700A2C33B /* SelectCommodityVC.swift */,
+				FA82B5BD27A0648600F3FE80 /* Login */,
+				FA82B5C627A065B100F3FE80 /* OTP */,
+				FA82B5D327A0688800F3FE80 /* User Profile */,
+				FA82B5DC27A0697800F3FE80 /* Location */,
+				FA82B5E527A06A8600F3FE80 /* Commodity */,
 			);
-			path = Login;
+			path = "Login Controllers";
 			sourceTree = "<group>";
 		};
 		376E02F52670C17700D4AB7D /* StaticJson */ = {
@@ -875,7 +879,7 @@
 		3790FBE026419E88002D7D2B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				376E02F42670C0D100D4AB7D /* Login */,
+				376E02F42670C0D100D4AB7D /* Login Controllers */,
 				37209665265148B1004E5326 /* Home */,
 			);
 			path = Controller;
@@ -1153,6 +1157,7 @@
 		37D162C5263BC102007748CE /* Krishi */ = {
 			isa = PBXGroup;
 			children = (
+				FA82B5B727A0628000F3FE80 /* UIExtensions */,
 				37D94D5F2667CFF2008F37BB /* App */,
 				376E02F72670C1FB00D4AB7D /* Utility */,
 				37122AA82698980900A984C8 /* BusinessLogic */,
@@ -1224,6 +1229,59 @@
 				C13950FF4391AC9FB759DAF8 /* Pods_KrishiTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA82B5B727A0628000F3FE80 /* UIExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA82B5B827A062B000F3FE80 /* Ext-UIButton.swift */,
+			);
+			path = UIExtensions;
+			sourceTree = "<group>";
+		};
+		FA82B5BD27A0648600F3FE80 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				370F3FF42659FF9300A2C33B /* VCLogin.swift */,
+				FA82B5B227A0607100F3FE80 /* VCLogin.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FA82B5C627A065B100F3FE80 /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+				370F3FFC2659FFB400A2C33B /* VCOtp.swift */,
+				FA82B5C127A064C700F3FE80 /* VCOtp.xib */,
+			);
+			path = OTP;
+			sourceTree = "<group>";
+		};
+		FA82B5D327A0688800F3FE80 /* User Profile */ = {
+			isa = PBXGroup;
+			children = (
+				370F4001265A00F400A2C33B /* VCUserProfile.swift */,
+				FA82B5CD27A066A100F3FE80 /* VCUserProfile.xib */,
+			);
+			path = "User Profile";
+			sourceTree = "<group>";
+		};
+		FA82B5DC27A0697800F3FE80 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				370F4006265A014700A2C33B /* VCLocation.swift */,
+				FA82B5D727A068C900F3FE80 /* VCLocation.xib */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		FA82B5E527A06A8600F3FE80 /* Commodity */ = {
+			isa = PBXGroup;
+			children = (
+				370F400B265A017700A2C33B /* VCCommodity.swift */,
+				FA82B5E027A06A0800F3FE80 /* VCCommodity.xib */,
+			);
+			path = Commodity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1353,6 +1411,7 @@
 				37D08D5E265EA0F700B48A38 /* Bamboo.jpg in Resources */,
 				37D08CB7265EA0F600B48A38 /* Chana Dal Split.jpg in Resources */,
 				37D08D17265EA0F700B48A38 /* Grapes.jpg in Resources */,
+				FA82B5B327A0607100F3FE80 /* VCLogin.xib in Resources */,
 				37D08CF9265EA0F700B48A38 /* Safed Musli.jpg in Resources */,
 				37D08CD6265EA0F600B48A38 /* Curry Leaves.jpg in Resources */,
 				372096862651A67A004E5326 /* MarketRates.png in Resources */,
@@ -1385,6 +1444,7 @@
 				37D08D47265EA0F700B48A38 /* Mace Whole.jpg in Resources */,
 				37D08D1D265EA0F700B48A38 /* Tejpata.jpg in Resources */,
 				37D08D0C265EA0F700B48A38 /* Sesame seed.jpg in Resources */,
+				FA82B5CE27A066A100F3FE80 /* VCUserProfile.xib in Resources */,
 				37D08CED265EA0F700B48A38 /* Ginger.jpg in Resources */,
 				37D08D0B265EA0F700B48A38 /* Mahua Seed.jpg in Resources */,
 				373DAC652662B6730074DFD6 /* PostTableViewCell.xib in Resources */,
@@ -1414,6 +1474,7 @@
 				37D08D52265EA0F700B48A38 /* Moong Dal Split.jpg in Resources */,
 				37D08CBA265EA0F600B48A38 /* Fenugreek Leaves.jpg in Resources */,
 				37D08CD7265EA0F700B48A38 /* Chana whole.jpg in Resources */,
+				FA82B5E127A06A0800F3FE80 /* VCCommodity.xib in Resources */,
 				37D08D06265EA0F700B48A38 /* Maize.jpg in Resources */,
 				37D08D4D265EA0F700B48A38 /* Isabgol.jpg in Resources */,
 				37D08CCA265EA0F600B48A38 /* Colocasia vegetable.jpg in Resources */,
@@ -1435,6 +1496,7 @@
 				37D08CC8265EA0F600B48A38 /* Drumstick.jpg in Resources */,
 				3720968126519EB0004E5326 /* Seller.png in Resources */,
 				37B91699265FC01700704E23 /* selectCommodity.png in Resources */,
+				FA82B5C227A064C700F3FE80 /* VCOtp.xib in Resources */,
 				37D08CEA265EA0F700B48A38 /* Banana Raw.jpg in Resources */,
 				372096932651AF50004E5326 /* news.png in Resources */,
 				37D08D00265EA0F700B48A38 /* Nutmeg Whole.jpg in Resources */,
@@ -1448,6 +1510,7 @@
 				373DAC532662708D0074DFD6 /* sell_vector_img.png in Resources */,
 				373DAC742662B93E0074DFD6 /* UserPostTableViewCell.xib in Resources */,
 				37D08D3C265EA0F700B48A38 /* Lily.jpg in Resources */,
+				FA82B5D827A068C900F3FE80 /* VCLocation.xib in Resources */,
 				37D08D55265EA0F700B48A38 /* Pumpkin.jpg in Resources */,
 				37D08CFE265EA0F700B48A38 /* Peanut kernel.jpg in Resources */,
 				37D08CF2265EA0F700B48A38 /* Onion.jpg in Resources */,
@@ -1667,7 +1730,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				370F400C265A017700A2C33B /* SelectCommodityVC.swift in Sources */,
+				370F400C265A017700A2C33B /* VCCommodity.swift in Sources */,
+				FA82B5B927A062B000F3FE80 /* Ext-UIButton.swift in Sources */,
 				37F9E1C32663770B002E93FA /* WeatherModel.swift in Sources */,
 				37D162CB263BC102007748CE /* HomeViewController.swift in Sources */,
 				37F9E1BE26637705002E93FA /* WeatherData.swift in Sources */,
@@ -1675,12 +1739,12 @@
 				37D94D562666A0FE008F37BB /* PostModel.swift in Sources */,
 				372337E4266B1869005BA09E /* MerchantPostViewController.swift in Sources */,
 				3702AE8C266486FE00E32533 /* DateTimeManager.swift in Sources */,
-				370F3FF52659FF9300A2C33B /* MobileNumberVC.swift in Sources */,
+				370F3FF52659FF9300A2C33B /* VCLogin.swift in Sources */,
 				37F9E1B226636BBB002E93FA /* ShowPostViewController.swift in Sources */,
 				3762EE7A266BDD230068A10A /* ChatViewController.swift in Sources */,
 				374FC442266238820050FB7E /* CommodityCollectionViewCell.swift in Sources */,
 				37D162D1263BC102007748CE /* Krishi.xcdatamodeld in Sources */,
-				370F4002265A00F400A2C33B /* PersonalDetailVC.swift in Sources */,
+				370F4002265A00F400A2C33B /* VCUserProfile.swift in Sources */,
 				37F9E1AD26633DE0002E93FA /* unitCollectionViewCell.swift in Sources */,
 				373653AD266C82B100EF0E1B /* RatesModel.swift in Sources */,
 				37ABB2D2266B7C0400A8C89A /* UserContactsViewController.swift in Sources */,
@@ -1705,10 +1769,10 @@
 				372337C226692781005BA09E /* ContactTableViewCell.swift in Sources */,
 				3720966A2651547B004E5326 /* Constants.swift in Sources */,
 				373DAC59266287020074DFD6 /* PostCommodityViewController.swift in Sources */,
-				370F3FFD2659FFB400A2C33B /* OtpVC.swift in Sources */,
+				370F3FFD2659FFB400A2C33B /* VCOtp.swift in Sources */,
 				372337CB266B1726005BA09E /* BuyersViewController.swift in Sources */,
 				378264C1266BAFC1009B5357 /* AgricultureNewsViewController.swift in Sources */,
-				370F4007265A014700A2C33B /* CurrentLocationVC.swift in Sources */,
+				370F4007265A014700A2C33B /* VCLocation.swift in Sources */,
 				37D08B5A265E1BCF00B48A38 /* CellCommodity.swift in Sources */,
 				37D162C9263BC102007748CE /* SceneDelegate.swift in Sources */,
 				37DAA1D82648D8ED000627FD /* NewPostViewController.swift in Sources */,

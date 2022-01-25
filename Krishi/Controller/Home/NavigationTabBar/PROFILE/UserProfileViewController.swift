@@ -119,7 +119,7 @@ class UserProfileViewController: UIViewController {
             UserDefaults.standard.synchronize()
             print(Array(UserDefaults.standard.dictionaryRepresentation().keys).count)
             
-            let newView = self.storyboard?.instantiateViewController(withIdentifier: "MobileNumberVC") as! MobileNumberVC
+            let newView = self.storyboard?.instantiateViewController(withIdentifier: "MobileNumberVC") as! VCLogin
             self.navigationController?.pushViewController(newView, animated: true)
             
         }

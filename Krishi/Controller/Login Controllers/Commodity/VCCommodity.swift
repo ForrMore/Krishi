@@ -8,7 +8,7 @@
 import UIKit
 import Alamofire
 
-class SelectCommodityVC: UIViewController {
+class VCCommodity: UIViewController {
     
     //TODO: - here i have to set user defaults of NSDictionary
     //MARK: - Variable
@@ -116,7 +116,7 @@ class SelectCommodityVC: UIViewController {
 }
 
 //MARK: - table view  data source Method
-extension SelectCommodityVC : UITableViewDataSource{
+extension VCCommodity : UITableViewDataSource{
     
     func numberOfSections(in tableView : UITableView) -> Int {
         return result?.commodity.count ?? 0
@@ -161,7 +161,7 @@ extension SelectCommodityVC : UITableViewDataSource{
 }
 
 //MARK: - table view delegate method
-extension SelectCommodityVC : UITableViewDelegate{
+extension VCCommodity : UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         

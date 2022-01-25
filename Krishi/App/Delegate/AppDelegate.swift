@@ -51,7 +51,7 @@ var window: UIWindow?
             window.makeKeyAndVisible()
             return
         }
-        let vcFirst = storyboard.instantiateViewController(withIdentifier: "MobileNumberVC") as! MobileNumberVC
+        let vcFirst = storyboard.instantiateViewController(withIdentifier: "MobileNumberVC") as! VCLogin
     
         AppDelegate.navBar = UINavigationController.init(rootViewController: vcFirst)
 //        let navigationController = UINavigationController.init(rootViewController: vcFirst)

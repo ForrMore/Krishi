@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VCCommodity" customModule="Krishi" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="CIy-Cf-5av" id="qWn-gT-hw2"/>
+            </connections>
+        </placeholder>
+        <view contentMode="scaleToFill" id="uwO-7k-ah7">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CIy-Cf-5av">
+                    <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="wpr-3S-sbv"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="CIy-Cf-5av" firstAttribute="trailing" secondItem="wpr-3S-sbv" secondAttribute="trailing" id="6x8-DA-vOE"/>
+                <constraint firstItem="CIy-Cf-5av" firstAttribute="top" secondItem="wpr-3S-sbv" secondAttribute="top" id="8v9-dd-L4g"/>
+                <constraint firstItem="CIy-Cf-5av" firstAttribute="leading" secondItem="wpr-3S-sbv" secondAttribute="leading" id="G45-qh-Jup"/>
+                <constraint firstAttribute="bottom" secondItem="CIy-Cf-5av" secondAttribute="bottom" id="lxt-gX-zAh"/>
+            </constraints>
+            <point key="canvasLocation" x="2400" y="-556"/>
+        </view>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

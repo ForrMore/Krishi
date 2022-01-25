@@ -1,7 +1,7 @@
 import UIKit
 import Alamofire
 
-class CurrentLocationVC: UIViewController {
+class VCLocation: UIViewController {
     
     @IBOutlet weak var stateField: UITextField!
     @IBOutlet weak var districtField: UITextField!
@@ -59,7 +59,7 @@ class CurrentLocationVC: UIViewController {
         }
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destinationVC = segue.destination as! SelectCommodityVC
+        let destinationVC = segue.destination as! VCCommodity
         destinationVC.userId_userMobile = id_mobile
     }
     
@@ -71,7 +71,7 @@ class CurrentLocationVC: UIViewController {
 }
 
 //MARK: - delegate Method for textfield
-extension CurrentLocationVC : UITextFieldDelegate{
+extension VCLocation : UITextFieldDelegate{
     //hide kyeboard when tap out side
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)

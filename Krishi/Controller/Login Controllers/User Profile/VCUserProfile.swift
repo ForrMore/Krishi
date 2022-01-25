@@ -1,6 +1,6 @@
 import UIKit
 
-class PersonalDetailVC: UIViewController {
+class VCUserProfile: UIViewController {
     
     // variabel
     @IBOutlet weak var firstName: UITextField!
@@ -30,7 +30,7 @@ class PersonalDetailVC: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destinationVC = segue.destination as! CurrentLocationVC
+        let destinationVC = segue.destination as! VCLocation
         destinationVC.userDataDictionary = userDataDictionary
     }
     
@@ -43,7 +43,7 @@ class PersonalDetailVC: UIViewController {
 }
 
 //MARK: - delegate method
-extension PersonalDetailVC : UITextFieldDelegate{
+extension VCUserProfile : UITextFieldDelegate{
     // hide kyeboard when tap out side
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)

@@ -3,7 +3,7 @@
 import UIKit
 import Alamofire
 
-class OtpVC: UIViewController {
+class VCOtp: UIViewController {
     
     
     //MARK: - Variables
@@ -147,7 +147,7 @@ class OtpVC: UIViewController {
     //
 }
 
-extension OtpVC : UITextFieldDelegate{
+extension VCOtp : UITextFieldDelegate{
     //    hide kyeboard when tap out side
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
