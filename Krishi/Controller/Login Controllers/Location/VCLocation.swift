@@ -7,6 +7,8 @@ class VCLocation: UIViewController {
     @IBOutlet weak var districtField: UITextField!
     @IBOutlet weak var talukaField: UITextField!
     
+    
+    var resultLocation: ModelLocation?
     var userDataDictionary = [String:String]() // A
     var URL_CREATE_USER = K.Url.createUser
     var id_mobile = [Int]()
@@ -20,7 +22,23 @@ class VCLocation: UIViewController {
         userDefaults.userDic = userData
         let mobileNumber = userDefaults.getUserDefaults("Mobile")
         print(mobileNumber)
+        
+        stateField.delegate = self
+        districtField.delegate = self
+        talukaField.delegate = self
         //
+    }
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        textField.resignFirstResponder()
+        if textField == stateField{
+            if let result = resultLocation{
+                ViewPickerController.open(array: result.allStates) { (item, index) in
+                    self.stateField.text = item
+                    self.userDataDictionary["state"] = item
+                }
+            }
+        }
     }
     
     @IBAction func continueButtonPressed(_ sender: UIButton) {//goToHome
@@ -58,6 +76,16 @@ class VCLocation: UIViewController {
             }
         }
     }
+    
+    func parseJson(){
+        do{
+            resultLocation = try JSONParser.JsonParser(fileName: "Location", toModel: ModelLocation.self)
+        }catch{
+            print(error)
+        }
+    }
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destinationVC = segue.destination as! VCCommodity
         destinationVC.userId_userMobile = id_mobile

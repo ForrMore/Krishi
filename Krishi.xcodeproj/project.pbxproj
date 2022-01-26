@@ -269,6 +269,14 @@
 		37F9E1C32663770B002E93FA /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F9E1C22663770B002E93FA /* WeatherModel.swift */; };
 		401EEB0D9384C884C7B4FB43 /* Pods_Krishi_KrishiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB259C47239C565FF110B92 /* Pods_Krishi_KrishiUITests.framework */; };
 		89F9D5EE667547BF7D94734C /* Pods_Krishi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C6A4B96C2A41D04AAF934E /* Pods_Krishi.framework */; };
+		FA388B9027A130DF006E3C27 /* ViewPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA388B8F27A130DF006E3C27 /* ViewPickerController.swift */; };
+		FA388B9527A130EA006E3C27 /* ViewPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA388B9427A130EA006E3C27 /* ViewPickerController.xib */; };
+		FA388B9A27A13496006E3C27 /* Ext-UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA388B9927A13496006E3C27 /* Ext-UIView.swift */; };
+		FA388B9F27A13D77006E3C27 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA388B9E27A13D77006E3C27 /* JsonParser.swift */; };
+		FA388BA427A17E07006E3C27 /* ModelLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA388BA327A17E07006E3C27 /* ModelLocation.swift */; };
+		FA388BA927A1932B006E3C27 /* Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA388BA827A1932B006E3C27 /* Instance.swift */; };
+		FA388BAE27A1960F006E3C27 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA388BAD27A1960F006E3C27 /* AppConstants.swift */; };
+		FA388BB327A19945006E3C27 /* Ext-NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA388BB227A19945006E3C27 /* Ext-NSObject.swift */; };
 		FA82B5B327A0607100F3FE80 /* VCLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA82B5B227A0607100F3FE80 /* VCLogin.xib */; };
 		FA82B5B927A062B000F3FE80 /* Ext-UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82B5B827A062B000F3FE80 /* Ext-UIButton.swift */; };
 		FA82B5C227A064C700F3FE80 /* VCOtp.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA82B5C127A064C700F3FE80 /* VCOtp.xib */; };
@@ -569,6 +577,14 @@
 		C13950FF4391AC9FB759DAF8 /* Pods_KrishiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KrishiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B94A87B2B2623D61BC8F98 /* Pods-Krishi-KrishiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Krishi-KrishiUITests.release.xcconfig"; path = "Target Support Files/Pods-Krishi-KrishiUITests/Pods-Krishi-KrishiUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EFB259C47239C565FF110B92 /* Pods_Krishi_KrishiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Krishi_KrishiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA388B8F27A130DF006E3C27 /* ViewPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPickerController.swift; sourceTree = "<group>"; };
+		FA388B9427A130EA006E3C27 /* ViewPickerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewPickerController.xib; sourceTree = "<group>"; };
+		FA388B9927A13496006E3C27 /* Ext-UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext-UIView.swift"; sourceTree = "<group>"; };
+		FA388B9E27A13D77006E3C27 /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		FA388BA327A17E07006E3C27 /* ModelLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLocation.swift; sourceTree = "<group>"; };
+		FA388BA827A1932B006E3C27 /* Instance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instance.swift; sourceTree = "<group>"; };
+		FA388BAD27A1960F006E3C27 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		FA388BB227A19945006E3C27 /* Ext-NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext-NSObject.swift"; sourceTree = "<group>"; };
 		FA82B5B227A0607100F3FE80 /* VCLogin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCLogin.xib; sourceTree = "<group>"; };
 		FA82B5B827A062B000F3FE80 /* Ext-UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext-UIButton.swift"; sourceTree = "<group>"; };
 		FA82B5C127A064C700F3FE80 /* VCOtp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCOtp.xib; sourceTree = "<group>"; };
@@ -725,12 +741,16 @@
 		376E02F72670C1FB00D4AB7D /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				FA82B5B727A0628000F3FE80 /* UIExtensions */,
 				372096692651547B004E5326 /* Constants.swift */,
 				37155C3D265B66110076B454 /* UserData.swift */,
 				37B91690265F930900704E23 /* StringConverter.swift */,
 				3702AE8B266486FE00E32533 /* DateTimeManager.swift */,
 				37ABB2CC266B4F9A00A8C89A /* helper.swift */,
 				3707974B269DC0120064EBD2 /* UniqueImageID.swift */,
+				FA388B9E27A13D77006E3C27 /* JsonParser.swift */,
+				FA388BAD27A1960F006E3C27 /* AppConstants.swift */,
+				FA388BB227A19945006E3C27 /* Ext-NSObject.swift */,
 			);
 			name = Utility;
 			path = Model;
@@ -888,6 +908,7 @@
 		3790FBE126419E9E002D7D2B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FA388B8E27A1307F006E3C27 /* Picker */,
 				376E03182670C5FB00D4AB7D /* StoryBoard */,
 				376E03042670C3EB00D4AB7D /* MessageCell */,
 				376E03162670C4DF00D4AB7D /* ContactsCell */,
@@ -912,6 +933,8 @@
 				376E02F82670C28E00D4AB7D /* Contacts */,
 				376E02F92670C2A600D4AB7D /* MandiRatesModel */,
 				37D162CF263BC102007748CE /* Krishi.xcdatamodeld */,
+				FA388BA327A17E07006E3C27 /* ModelLocation.swift */,
+				FA388BA827A1932B006E3C27 /* Instance.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1157,7 +1180,7 @@
 		37D162C5263BC102007748CE /* Krishi */ = {
 			isa = PBXGroup;
 			children = (
-				FA82B5B727A0628000F3FE80 /* UIExtensions */,
+				FA388BB727A1A027006E3C27 /* Networking */,
 				37D94D5F2667CFF2008F37BB /* App */,
 				376E02F72670C1FB00D4AB7D /* Utility */,
 				37122AA82698980900A984C8 /* BusinessLogic */,
@@ -1231,10 +1254,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA388B8E27A1307F006E3C27 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				FA388B8F27A130DF006E3C27 /* ViewPickerController.swift */,
+				FA388B9427A130EA006E3C27 /* ViewPickerController.xib */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		FA388BB727A1A027006E3C27 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		FA82B5B727A0628000F3FE80 /* UIExtensions */ = {
 			isa = PBXGroup;
 			children = (
 				FA82B5B827A062B000F3FE80 /* Ext-UIButton.swift */,
+				FA388B9927A13496006E3C27 /* Ext-UIView.swift */,
 			);
 			path = UIExtensions;
 			sourceTree = "<group>";
@@ -1414,6 +1454,7 @@
 				FA82B5B327A0607100F3FE80 /* VCLogin.xib in Resources */,
 				37D08CF9265EA0F700B48A38 /* Safed Musli.jpg in Resources */,
 				37D08CD6265EA0F600B48A38 /* Curry Leaves.jpg in Resources */,
+				FA388B9527A130EA006E3C27 /* ViewPickerController.xib in Resources */,
 				372096862651A67A004E5326 /* MarketRates.png in Resources */,
 				37D08CDC265EA0F700B48A38 /* Broccoli:Calabrese.jpg in Resources */,
 				37D94D512666933A008F37BB /* NoResultFound.png in Resources */,
@@ -1758,9 +1799,11 @@
 				375460AB2661E32400C693D5 /* EditProfileViewController.swift in Sources */,
 				37D08D6B265EC0C900B48A38 /* SelectedCommodityModel.swift in Sources */,
 				373653C4266CB78A00EF0E1B /* ViewDetail.swift in Sources */,
+				FA388BA927A1932B006E3C27 /* Instance.swift in Sources */,
 				373653A8266C7F5500EF0E1B /* MandiRates.swift in Sources */,
 				37155C3E265B66110076B454 /* UserData.swift in Sources */,
 				37D94D4C2664D441008F37BB /* MyPostViewController.swift in Sources */,
+				FA388B9F27A13D77006E3C27 /* JsonParser.swift in Sources */,
 				37122AA42697E59C00A984C8 /* RateListViewController.swift in Sources */,
 				37F9E1B9266376F8002E93FA /* WeatherManager.swift in Sources */,
 				3784A3FA265BD2E60086FC06 /* CommodityModel.swift in Sources */,
@@ -1776,10 +1819,15 @@
 				37D08B5A265E1BCF00B48A38 /* CellCommodity.swift in Sources */,
 				37D162C9263BC102007748CE /* SceneDelegate.swift in Sources */,
 				37DAA1D82648D8ED000627FD /* NewPostViewController.swift in Sources */,
+				FA388B9027A130DF006E3C27 /* ViewPickerController.swift in Sources */,
+				FA388BA427A17E07006E3C27 /* ModelLocation.swift in Sources */,
 				37ABB2D7266B833100A8C89A /* ContactsModel.swift in Sources */,
+				FA388B9A27A13496006E3C27 /* Ext-UIView.swift in Sources */,
 				37B91691265F930900704E23 /* StringConverter.swift in Sources */,
+				FA388BB327A19945006E3C27 /* Ext-NSObject.swift in Sources */,
 				37079751269ED5720064EBD2 /* SellPostModel.swift in Sources */,
 				3707974C269DC0120064EBD2 /* UniqueImageID.swift in Sources */,
+				FA388BAE27A1960F006E3C27 /* AppConstants.swift in Sources */,
 				378264CC266BD6D9009B5357 /* MessageCell.swift in Sources */,
 				3762EE7F266BDD7C0068A10A /* Messages.swift in Sources */,
 			);

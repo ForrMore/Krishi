@@ -104,14 +104,19 @@ class VCCommodity: UIViewController {
     
     // parse json into and its stuct named (result)
     private func parseJSON(){
-        guard let path = Bundle.main.path(forResource: K.jsonFileName[0], ofType: K.jsonFileName[1])else {return}
-        let url = URL(fileURLWithPath: path)
-        do{
-            let jsonData = try Data(contentsOf: url)
-            result = try JSONDecoder().decode(Result.self,from: jsonData)
+        do {
+            result = try JSONParser.JsonParser(fileName: K.jsonFileName[0], toModel: Result.self)
         }catch{
-            print("here is an error \(error)")
+            print(error)
         }
+//        guard let path = Bundle.main.path(forResource: K.jsonFileName[0], ofType: K.jsonFileName[1])else {return}
+//        let url = URL(fileURLWithPath: path)
+//        do{
+//            let jsonData = try Data(contentsOf: url)
+//            result = try JSONDecoder().decode(Result.self,from: jsonData)
+//        }catch{
+//            print("here is an error \(error)")
+//        }
     }
 }
 
