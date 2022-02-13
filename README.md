@@ -16,15 +16,16 @@ and he directly contact to buyer or seller for a further exchange. and Farmer ca
 nearest location based at good price. and Krishi is the extension to the gov Support to Farmer .
 
 Krishi Functionality are:
-    - can register or login through mobile no.
-    - can get weather data
-    - user can buy and sell produce 
-    - user can contact direct to buyer or seller 
-    - user can save contact for further exchange
-    - user can edit profile 
-    - user can get latest mandi rates by Gov by Data.gov 
-    - user can chat globally to all the logined users 
-    - user can check news for Farmer Benifits 
-    - user can create post for buy and sell of produce
+    
+    - user can register or login through mobile no.
+    - user can get live weather data.
+    - user can buy and sell produce. 
+    - user can contact direct to buyer or seller. 
+    - user can save contact for further exchange.
+    - user can edit profile. 
+    - user can get latest mandi rates by Gov by Data.gov. 
+    - user can chat globally to all the logined users. 
+    - user can check news for Farmer Benifits. 
+    - user can create post for buy and sell of produce.
     
 Note : "this application is for learning purpose" that how i can make a solution to real world problem.
