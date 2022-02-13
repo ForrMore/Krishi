@@ -6,13 +6,13 @@
 //
 
 import Foundation
-
-struct Result : Codable {
-    var commodity : [Commodities]
-}
-
-struct Commodities : Codable {
-    var title : String
-    var items : [String]
-}
+//
+//struct Result : Codable {
+//    var commodity : [Commodities]
+//}
+//
+//struct Commodities : Codable {
+//    var title : String
+//    var items : [String]
+//}
 

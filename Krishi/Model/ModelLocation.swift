@@ -9,7 +9,7 @@ import Foundation
 
 struct ModelLocation: Codable {
     let allStates: [String]
-    let stateData: ModelStateData
+    let stateData: [String: ModelStateData]
 }
 
 struct ModelStateData: Codable {
@@ -18,7 +18,7 @@ struct ModelStateData: Codable {
 
 struct ModelState: Codable {
     let alldistricts: [String]
-    let districtData: DistrictData
+    let districtData: [String: DistrictData]
 }
 
 struct DistrictData: Codable {

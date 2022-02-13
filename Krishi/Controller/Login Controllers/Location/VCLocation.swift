@@ -31,15 +31,27 @@ class VCLocation: UIViewController {
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
         textField.resignFirstResponder()
-        if textField == stateField{
-            if let result = resultLocation{
+        
+        if let result = resultLocation{
+            if textField == stateField{
                 ViewPickerController.open(array: result.allStates) { (item, index) in
                     self.stateField.text = item
                     self.userDataDictionary["state"] = item
                 }
+            }else if textField == districtField && stateField.text != ""{
+                ViewPickerController.open(array: result.stateData[stateField.text!]!.state.alldistricts) { (item, index) in
+                    self.stateField.text = item
+                    self.userDataDictionary["district"] = item
+                }
+            }else if textField == talukaField && districtField.text != ""{
+                ViewPickerController.open(array: result.stateData[stateField.text!]!.state.districtData[districtField.text!]!.district) { (item, index) in
+                    self.stateField.text = item
+                    self.userDataDictionary["taluka"] = item
+                }
             }
         }
     }
+    
     
     @IBAction func continueButtonPressed(_ sender: UIButton) {//goToHome
         if stateField.text?.count == 0 && districtField.text?.count == 0 && talukaField.text?.count == 0{
@@ -49,7 +61,7 @@ class VCLocation: UIViewController {
             userDataDictionary["state"] = stateField.text!
             userDataDictionary["district"] = districtField.text!
             userDataDictionary["taluka"] = talukaField.text ?? ""
-//            userDataDictionary[""]
+            //            userDataDictionary[""]
             let parameters: Parameters = userDataDictionary
             
             //Sending http post request
@@ -69,13 +81,13 @@ class VCLocation: UIViewController {
                     if error == 0{
                         self.performSegue(withIdentifier: K.GoTo.SelectedCommodity, sender: self)
                     }else{
-                        let message = "Complete above data"
-                        self.showAlert(message)
+                        self.showAlert(title: "Alert", message: "Complete above data")
                     }
                 }
             }
         }
     }
+    
     
     func parseJson(){
         do{
@@ -83,18 +95,6 @@ class VCLocation: UIViewController {
         }catch{
             print(error)
         }
-    }
-    
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destinationVC = segue.destination as! VCCommodity
-        destinationVC.userId_userMobile = id_mobile
-    }
-    
-    func showAlert(_ message:String){
-        let alert = UIAlertController(title: "Alert", message: message, preferredStyle: UIAlertController.Style.alert)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-        self.present(alert, animated: true, completion: nil)
     }
 }
 

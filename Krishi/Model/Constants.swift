@@ -1,18 +1,18 @@
 
-struct K {
+struct KRSHI {
     
     static let appName = "Krishi"
     static let cellIdentifier = "CellCommodity"
     static let cellNibName = "CellCommodity"
     static let jsonFileName:[String] = ["Commodity","json"]
-    static let ip : String = "http://192.168.1.4:8080/"
+    static let baseUrl : String = "https://forrmore.000webhostapp.com/api/v1/"
     
     struct Url {
-        static let updateUser = K.self.ip+"krishi_app/v1/update_user.php"
-        static let createUser = K.self.ip+"krishi_app/v1/create_user_db.php"
-        static let createAuth = K.self.ip+"krishi_app/v1/create_auth.php"
-        static let verifyUser =  K.self.ip+"krishi_app/v1/verify_auth.php"
-        static let updateCommodity = K.self.ip+"krishi_app/v1/user_commodity.php"
+        static let updateUser = KRSHI.self.baseUrl+"update_user.php"
+        static let createUser = KRSHI.self.baseUrl+"create_user_db.php"
+        static let createAuth = KRSHI.self.baseUrl+"create_auth.php"
+        static let verifyUser =  KRSHI.self.baseUrl+"verify_auth.php"
+        static let updateCommodity = KRSHI.self.baseUrl+"user_commodity.php"
     }
     
     struct GoTo {

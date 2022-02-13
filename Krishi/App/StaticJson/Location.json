@@ -1,10 +1,10 @@
 {
-    "states": ["Rajasthan","Maharashtra","Madhya Pradesh"],
-    "state_data": {
+    "states": ["Madhya Pradesh", "Maharashtra", "Rajasthan"],
+    "state_data": [
         "Rajasthan": {
-            "district": ["Jaipur","Jodhpur","Alwar","Nagaur","Udaipur","Sikar","Barmer","Ajmer","Bharatpur","Bhilwara","Bikaner","Jhunjhunun","Churu","Pali","Ganganagar","Kota","Jalor","Banswara","Hanumangarh","Dausa","Chittaurgarh","Karauli","Tonk","Jhalawar","Dungarpur","Madhopur","Baran","Dhaulpur","Rajsamand","Bundi","Sirohi","Pratapgarh","Jaisalmer"],
+            "district": ["Ajmer", "Alwar", "Banswara", "Baran", "Barmer", "Bharatpur", "Bhilwara", "Bikaner", "Bundi", "Chittaurgarh", "Churu", "Dausa", "Dhaulpur", "Dungarpur", "Ganganagar", "Hanumangarh", "Jaipur", "Jaisalmer", "Jalor", "Jhalawar", "Jhunjhunun", "Jodhpur", "Karauli", "Kota", "Madhopur", "Nagaur", "Pali", "Pratapgarh", "Rajsamand", "Sikar", "Sirohi", "Tonk", "Udaipur"],
             
-            "district_data": {
+            "district_data": [
                 "Jaipur": ["Jaipur","Sanganer","Amber","Phulera","Kotputli","Chomu","Jamwa","Bassi","Shahpura","Chaksu","Mauzamabad","Phagi","Viratnaga",],
                 "Jodhpur": ["Jodhpur","Phalodi","Osian","Shergarh","Bhopalgarh","Bilara","Luni",],
                 "Alwar": ["Alwar","Tijara","Behror","Rajgarh","Lachhmangarh","Bansur","Ramgarh","Kathumar","Thanagazi","Mandawar","Kishangarh Bas","Kotkasim",],
@@ -42,7 +42,7 @@
             
             "Madhya Pradesh": {
                 
-                "district": ["Indore","Jabalpur","Sagar","Bhopal","Rewa","Satna","Dhar","Chhindwara","Gwalior","Ujjain","Morena","West","Chhattarpur","Shivpuri","Bhind","Balaghat","Betul","Dewas","Rajgarh","Shajapur","Vidisha","Ratlam","Tikamgarh","Barwani","Seoni","Mandsaur","Raisen","Sehore","East","Katni","Damoh","Guna","Hoshangabad","Singrauli","Sidhi","Narsimhapur","Shahdol","Mandla","Jhabua","Panna","Ashoknagar","Neemuch","Datia","Burhanpur","Anuppur","Alirajpur","Dindori","Sheopur","Umaria","Harda",],
+                "district": ["Alirajpur", "Anuppur", "Ashoknagar", "Balaghat", "Barwani", "Betul", "Bhind", "Bhopal", "Burhanpur", "Chhattarpur", "Chhindwara", "Damoh", "Datia", "Dewas", "Dhar", "Dindori", "East", "Guna", "Gwalior", "Harda", "Hoshangabad", "Indore", "Jabalpur", "Jhabua", "Katni", "Mandla", "Mandsaur", "Morena", "Narsimhapur", "Neemuch", "Panna", "Raisen", "Rajgarh", "Ratlam", "Rewa", "Sagar", "Satna", "Sehore", "Seoni", "Shahdol", "Shajapur", "Sheopur", "Shivpuri", "Sidhi", "Singrauli", "Tikamgarh", "Ujjain", "Umaria", "Vidisha", "West"],
                 
                 "district_data":{
                     
@@ -101,7 +101,7 @@
                 
                 "Maharashtra": {
                     
-                    "district": ["Thane","Pune","Nashik","Nagpur","Ahmadnagar","Solapur","Jalgaon","Kolhapur","Aurangabad","Nanded","Mumbai","Satara","Amravati","Sangli","Yavatmal","Raigarh","Buldana","Bid","Latur","Chandrapur","Dhule","Jalna","Parbhani","Akola","Osmanabad","Nandurbar","Ratnagiri","Gondiya","Wardha","Bhandara","Washim","Hingoli","Gadchiroli","Sindhudurg",],
+                    "district": ["Ahmadnagar", "Akola", "Amravati", "Aurangabad", "Bhandara", "Bid", "Buldana", "Chandrapur", "Dhule", "Gadchiroli", "Gondiya", "Hingoli", "Jalgaon", "Jalna", "Kolhapur", "Latur", "Mumbai", "Nagpur", "Nanded", "Nandurbar", "Nashik", "Osmanabad", "Parbhani", "Pune", "Raigarh", "Ratnagiri", "Sangli", "Satara", "Sindhudurg", "Solapur", "Thane", "Wardha", "Washim", "Yavatmal"],
                     
                     "district_data":{
                         "Thane": ["Thane","Kalyan","Vasai","Bhiwandi","Ambarnath","Palghar","Ulhasnagar","Dahanu","Shahapur","Murbad","Vada","Talasari","Jawhar","Vikramgad","Mokhada",],
@@ -138,7 +138,7 @@
                         "Hingoli": ["Basmath","Hingoli","Kalamnuri","Sengaon","Aundha (Nagnath)",],
                         "Gadchiroli": ["Chamorshi","Gadchiroli","Aheri","Armori","Kurkheda","Desaiganj (Vadasa)","Dhanora","Etapalli","Sironcha","Mulchera","Korchi","Bhamragad",],
                         "Sindhudurg": ["Kudal","Sawantwadi","Kankavli","Devgad","Malwan","Vengurla","Dodamarg","Vaibhavvadi",],
-                    }
+                    ]
                 }
-            }
+            ]
         }

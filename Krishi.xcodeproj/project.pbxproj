@@ -277,12 +277,17 @@
 		FA388BA927A1932B006E3C27 /* Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA388BA827A1932B006E3C27 /* Instance.swift */; };
 		FA388BAE27A1960F006E3C27 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA388BAD27A1960F006E3C27 /* AppConstants.swift */; };
 		FA388BB327A19945006E3C27 /* Ext-NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA388BB227A19945006E3C27 /* Ext-NSObject.swift */; };
+		FA388BCC27A1A866006E3C27 /* HttpUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA388BCB27A1A866006E3C27 /* HttpUtility.swift */; };
+		FA388BD527A1A94E006E3C27 /* Ext-Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA388BD427A1A94E006E3C27 /* Ext-Encodable.swift */; };
 		FA82B5B327A0607100F3FE80 /* VCLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA82B5B227A0607100F3FE80 /* VCLogin.xib */; };
 		FA82B5B927A062B000F3FE80 /* Ext-UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82B5B827A062B000F3FE80 /* Ext-UIButton.swift */; };
 		FA82B5C227A064C700F3FE80 /* VCOtp.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA82B5C127A064C700F3FE80 /* VCOtp.xib */; };
 		FA82B5CE27A066A100F3FE80 /* VCUserProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA82B5CD27A066A100F3FE80 /* VCUserProfile.xib */; };
 		FA82B5D827A068C900F3FE80 /* VCLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA82B5D727A068C900F3FE80 /* VCLocation.xib */; };
 		FA82B5E127A06A0800F3FE80 /* VCCommodity.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA82B5E027A06A0800F3FE80 /* VCCommodity.xib */; };
+		FA9A13A227B9213A006E641C /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A139F27B9213A006E641C /* NetworkError.swift */; };
+		FA9A13A327B9213A006E641C /* HttpMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A13A027B9213A006E641C /* HttpMethods.swift */; };
+		FA9A13A427B9213A006E641C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A13A127B9213A006E641C /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -585,12 +590,17 @@
 		FA388BA827A1932B006E3C27 /* Instance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instance.swift; sourceTree = "<group>"; };
 		FA388BAD27A1960F006E3C27 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		FA388BB227A19945006E3C27 /* Ext-NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext-NSObject.swift"; sourceTree = "<group>"; };
+		FA388BCB27A1A866006E3C27 /* HttpUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpUtility.swift; sourceTree = "<group>"; };
+		FA388BD427A1A94E006E3C27 /* Ext-Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext-Encodable.swift"; sourceTree = "<group>"; };
 		FA82B5B227A0607100F3FE80 /* VCLogin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCLogin.xib; sourceTree = "<group>"; };
 		FA82B5B827A062B000F3FE80 /* Ext-UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext-UIButton.swift"; sourceTree = "<group>"; };
 		FA82B5C127A064C700F3FE80 /* VCOtp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCOtp.xib; sourceTree = "<group>"; };
 		FA82B5CD27A066A100F3FE80 /* VCUserProfile.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCUserProfile.xib; sourceTree = "<group>"; };
 		FA82B5D727A068C900F3FE80 /* VCLocation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCLocation.xib; sourceTree = "<group>"; };
 		FA82B5E027A06A0800F3FE80 /* VCCommodity.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VCCommodity.xib; sourceTree = "<group>"; };
+		FA9A139F27B9213A006E641C /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		FA9A13A027B9213A006E641C /* HttpMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMethods.swift; sourceTree = "<group>"; };
+		FA9A13A127B9213A006E641C /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1266,8 +1276,21 @@
 		FA388BB727A1A027006E3C27 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				FA388BD327A1A92B006E3C27 /* Extension */,
+				FA388BCB27A1A866006E3C27 /* HttpUtility.swift */,
+				FA9A13A027B9213A006E641C /* HttpMethods.swift */,
+				FA9A139F27B9213A006E641C /* NetworkError.swift */,
+				FA9A13A127B9213A006E641C /* Request.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		FA388BD327A1A92B006E3C27 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA388BD427A1A94E006E3C27 /* Ext-Encodable.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		FA82B5B727A0628000F3FE80 /* UIExtensions */ = {
@@ -1773,18 +1796,22 @@
 			files = (
 				370F400C265A017700A2C33B /* VCCommodity.swift in Sources */,
 				FA82B5B927A062B000F3FE80 /* Ext-UIButton.swift in Sources */,
+				FA9A13A327B9213A006E641C /* HttpMethods.swift in Sources */,
 				37F9E1C32663770B002E93FA /* WeatherModel.swift in Sources */,
 				37D162CB263BC102007748CE /* HomeViewController.swift in Sources */,
 				37F9E1BE26637705002E93FA /* WeatherData.swift in Sources */,
+				FA9A13A227B9213A006E641C /* NetworkError.swift in Sources */,
 				372337D0266B1743005BA09E /* SellersViewController.swift in Sources */,
 				37D94D562666A0FE008F37BB /* PostModel.swift in Sources */,
 				372337E4266B1869005BA09E /* MerchantPostViewController.swift in Sources */,
 				3702AE8C266486FE00E32533 /* DateTimeManager.swift in Sources */,
+				FA388BD527A1A94E006E3C27 /* Ext-Encodable.swift in Sources */,
 				370F3FF52659FF9300A2C33B /* VCLogin.swift in Sources */,
 				37F9E1B226636BBB002E93FA /* ShowPostViewController.swift in Sources */,
 				3762EE7A266BDD230068A10A /* ChatViewController.swift in Sources */,
 				374FC442266238820050FB7E /* CommodityCollectionViewCell.swift in Sources */,
 				37D162D1263BC102007748CE /* Krishi.xcdatamodeld in Sources */,
+				FA9A13A427B9213A006E641C /* Request.swift in Sources */,
 				370F4002265A00F400A2C33B /* VCUserProfile.swift in Sources */,
 				37F9E1AD26633DE0002E93FA /* unitCollectionViewCell.swift in Sources */,
 				373653AD266C82B100EF0E1B /* RatesModel.swift in Sources */,
@@ -1807,6 +1834,7 @@
 				37122AA42697E59C00A984C8 /* RateListViewController.swift in Sources */,
 				37F9E1B9266376F8002E93FA /* WeatherManager.swift in Sources */,
 				3784A3FA265BD2E60086FC06 /* CommodityModel.swift in Sources */,
+				FA388BCC27A1A866006E3C27 /* HttpUtility.swift in Sources */,
 				374FC450266258830050FB7E /* ChangeCommodityUIViewController.swift in Sources */,
 				373DAC642662B6730074DFD6 /* PostTableViewCell.swift in Sources */,
 				372337C226692781005BA09E /* ContactTableViewCell.swift in Sources */,
